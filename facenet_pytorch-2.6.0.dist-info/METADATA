@@ -15,7 +15,8 @@ Requires-Dist: Pillow <10.3.0,>=10.2.0
 Requires-Dist: requests <3.0.0,>=2.0.0
 # Requires-Dist: torch <2.3.0,>=2.2.0
 Requires-Dist: torch (>=2.5.1,<2.6.0)
-Requires-Dist: torchvision <0.18.0,>=0.17.0
+# Requires-Dist: torchvision <0.18.0,>=0.17.0
+Requires-Dist: torchvision (>=0.19.0,<0.20.0)
 Requires-Dist: tqdm <5.0.0,>=4.0.0
 
 # Face Recognition Using Pytorch 
@@ -35,6 +36,7 @@ Also included in this repo is an efficient pytorch implementation of MTCNN for f
 ## Table of contents
 
 - [Requires-Dist: torch \<2.3.0,\>=2.2.0](#requires-dist-torch-230220)
+- [Requires-Dist: torchvision \<0.18.0,\>=0.17.0](#requires-dist-torchvision-01800170)
 - [Face Recognition Using Pytorch](#face-recognition-using-pytorch)
   - [Table of contents](#table-of-contents)
   - [Quick start](#quick-start)
