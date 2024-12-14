@@ -1,0 +1,7 @@
+torch<2.6.0,>=2.5.1
+torchvision<0.21.0,>=0.20.1
+numpy
+pillow
+scipy
+requests
+tqdm
